@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left,rgb(223, 239, 3),rgba(210, 222, 78, 0.708));
+
+}
+
+.inner-box{
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-40%);
+    padding: 20px 40px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px ;
+}
+
+.signup-header h1{
+    font-size: 3rem;
+    color: black;
+}
+
+.signup-header p{
+    
+    font-size: 0.9rem;
+    color: darkslateblue;
+}
+
+.signup-body{
+
+    margin: 20px 0;
+}
+
+.signup-body p{
+    margin: 10px 0;
+}
+.signup-body p label{
+    display: block;
+    font-weight: bold;
+
+}
+
+.signup-body p input 
+{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.491);
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+  
+}
+
+.signup-body p input[type="submit"]{
+    background-color: rgba(240, 240, 8, 0.829);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.signup-body p input[type="submit"]:hover{
+    background-color: rgb(128, 128, 9);
+}
+
+.signup-footer p{
+    color: rgba(33, 41, 24, 0.756);
+    text-align: center;
+}
+
+.signup-footer p a {
+    color: rgba(240, 240, 8, 0.829);
+}
